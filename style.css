@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header .upper {
+  padding: 1.2rem 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upper a {
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo i {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ff385c;
+}
+.logo a {
+  font-size: 1.7rem;
+  margin-left: 5px;
+  font-weight: 800;
+  color: #ff385c;
+}
+
+.menu1 a {
+  margin: 0 1rem;
+  color: rgb(56, 56, 56);
+  font-weight: 600;
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+}
+
+.menu2 a {
+  margin: 0 0.5rem;
+}
+
+.menu2 i {
+  margin: 0 1rem;
+}
+
+.menu2-user {
+  display: flex;
+  width: max-content;
+  border: 1px solid black;
+  padding: 1rem 0.8rem;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.menu2-user i {
+  font-size: 1.2rem;
+  margin: 0 0.3rem;
+}
